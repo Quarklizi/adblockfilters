@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20250215092206
-! Last modified: 2025/02/15 09:22:06
-! Blocked domains: 6149
+! Version: 20250215162127
+! Last modified: 2025/02/15 16:21:27
+! Blocked domains: 6147
 ! unBlocked domains: 16
 !
 ||kwcdn.000dn.com^
@@ -759,7 +759,6 @@
 ||aokkwzg.cn^
 ||aoqinglv.cn^
 ||us-behavior.apitd.net^
-||app-analytics-services.com^
 ||app-measurement.com^
 ||mobile.appchina.com^
 ||appdriver.cn^
@@ -1010,7 +1009,6 @@
 ||active.baofeng.com^
 ||midinfo.baofeng.com^
 ||a.baomihua.com^
-||djs.baomihua.com^
 ||resource.baomihua.com^
 ||bartender.cc^
 ||webpage.batianhu.cn^
@@ -1204,7 +1202,6 @@
 ||s.btime.com^
 ||btsgroup.cn^
 ||btyou.com^
-||beijing.buzhi5.com^
 ||bvubasnf.com^
 ||ad.bwton.com^
 ||dlogs.bwton.com^
@@ -1240,6 +1237,8 @@
 ||b1.c1km4.com^
 ||dispatcher.c360dn.com^
 ||dispatcher-bsy.c360dn.com^
+||apollo.caixin.com^
+||pinggai5.caixin.com^
 ||ad.caiyunapp.com^
 ||api.callget.cn^
 ||smetrics.calvinklein.cn^
@@ -1522,7 +1521,6 @@
 ||dadde.cn^
 ||daddq.cn^
 ||js1.dadiniu.cn^
-||dadzz.cn^
 ||daede.cn^
 ||dafdf.cn^
 ||dakawm.cc^
@@ -1537,6 +1535,7 @@
 ||dashet.com^
 ||datacaciques.com^
 ||datamaster.com.cn^
+||matomo.datasanalytics.com^
 ||datayi.cn^
 ||jc1.dayfund.com.cn^
 ||bun1.dayi.org.cn^
@@ -1581,6 +1580,7 @@
 ||events-dra.op.dbankcloud.com^
 ||events-drcn.op.dbankcloud.com^
 ||events-dre.op.dbankcloud.com^
+||events-drru.op.dbankcloud.com^
 ||grs.dbankcloud.com^
 ||httpdns.platform.dbankcloud.com^
 ||logservice-dra.platform.dbankcloud.com^
@@ -1644,6 +1644,7 @@
 ||downloada.dewmobile.net^
 ||dexinyi.cn^
 ||dfhag.cn^
+||dfkd.xyz^
 ||newswifiapi.dfshurufa.com^
 ||dg186.cn^
 ||dgbaozhuang.cn^
@@ -1677,7 +1678,6 @@
 ||do-global.com^
 ||info.meihua.docer.com^
 ||zx.docin.com^
-||eee.dodecahedron.cn^
 ||doglobal.net^
 ||ads.doit.com.cn^
 ||domob.cn^
@@ -1784,7 +1784,6 @@
 ||adsdkapi.dxys.pro^
 ||fumiad.dxys.pro^
 ||a.dxzy163.com^
-||dycwt.cn^
 ||a.dyjqd.com^
 ||by.dyq.cn^
 ||hl.dyq.cn^
@@ -2179,6 +2178,7 @@
 ||abcdcfasda.gushiwen.cn^
 ||enennsa.gushiwen.cn^
 ||ggw.gusuwang.com^
+||m.gutousoft.com^
 ||a.guzhilin.com^
 ||guzsjdl.cn^
 ||gvt2-cn.com^
@@ -2598,6 +2598,7 @@
 ||gw.innotechx.com^
 ||inping.com^
 ||click.inplayable.com^
+||ixvdfqi.inqku.cn^
 ||inquire-jq.top^
 ||insenz.com^
 ||ainu.intel.cn^
@@ -2791,7 +2792,6 @@
 ||img.jjiv.top^
 ||jjjcyjj.cn^
 ||jjyx.com^
-||jknrwe.cn^
 ||jlifm.org.cn^
 ||jmgehn.cn^
 ||www.jmine.cn^
@@ -2887,6 +2887,7 @@
 ||kkkaii.cn^
 ||houyi.kkmh.com^
 ||ipv4.kkmh.com^
+||affiliate.klook.com^
 ||kmgfjc.cn^
 ||ykkvnoxal.kmhul.cn^
 ||kmihknj.cn^
@@ -3387,7 +3388,6 @@
 ||microad-cn.com^
 ||microad.jp^
 ||stat.microvirt.com^
-||pylon.micstatic.com^
 ||plausible.midway.run^
 ||track.midway.run^
 ||app.log.nf.migu.cn^
@@ -3872,7 +3872,6 @@
 ||analytics.pushgrid.net^
 ||ums.pushpia.cn^
 ||ssp.putaojiu.com^
-||apple.pvxt.net^
 ||dm.pw0.cn^
 ||pxhuiben.com^
 ||cdn.pyadx.com^
@@ -3929,7 +3928,6 @@
 ||logger.qingting.fm^
 ||kf.qingwk.com^
 ||7xkfic.com2.z0.glb.qiniucdn.com^
-||down.qiqi.cc^
 ||analytics.qiqiuyun.net^
 ||stats.qiumibao.com^
 ||webstat.qiumibao.com^
@@ -4287,6 +4285,7 @@
 ||rz261.cn^
 ||rzfdbsn.cn^
 ||rzflhxn.cn^
+||rzlib.net^
 ||rznscya.cn^
 ||rzsgxmm.cn^
 ||s11.cn^
@@ -4947,7 +4946,6 @@
 ||analysis.tratao.com^
 ||ta.trs.cn^
 ||trustutn.org^
-||analytics.trustyou.com^
 ||ts166.net^
 ||www.ttyyuuoo.com^
 ||tudou.com^
@@ -5382,6 +5380,7 @@
 ||wftyehw.cn^
 ||redir.wggames.cn^
 ||www.whalecloud.com^
+||whatsappws.cc^
 ||whytd.com^
 ||a.wifi33.com^
 ||wilf.cn^
@@ -5401,7 +5400,6 @@
 ||wlhcb.cn^
 ||wm23.com^
 ||wmmax.com^
-||bdjiaoben.wmxa.cn^
 ||wn68din.cn^
 ||www.wndlkj.com^
 ||wo1818.cn^
@@ -5896,7 +5894,6 @@
 ||dehsbdvz.yoxnx.cn^
 ||gehhfzjj.yoxnx.cn^
 ||gqwwa.yoxnx.cn^
-||grmztpmnmx.yoxnx.cn^
 ||izoghj.yoxnx.cn^
 ||lsaseu.yoxnx.cn^
 ||mqyly.yoxnx.cn^
@@ -5979,6 +5976,7 @@
 ||api-analytics-de.zepp.com^
 ||api-analytics-us.zepp.com^
 ||api-analytics-us3.zepp.com^
+||app-analytics.zepp.com^
 ||app-analytics-de.zepp.com^
 ||app-analytics-ru.zepp.com^
 ||app-analytics-sg.zepp.com^
