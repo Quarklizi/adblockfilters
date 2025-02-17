@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20250217092536
-! Last modified: 2025/02/17 09:25:36
-! Blocked domains: 6157
+! Version: 20250217162606
+! Last modified: 2025/02/17 16:26:06
+! Blocked domains: 6146
 !
 kwcdn.000dn.com
 kwcscdn.000dn.com
@@ -350,7 +350,6 @@ union.56.com
 uvimage.56.com
 v16.56.com
 www.56.com
-3.5646.cn
 dl.1003b.56a.com
 56fba.cn
 adshow.58.com
@@ -478,7 +477,6 @@ smetrics.abercrombie.cn
 abjalrq.cn
 discover.absciex.com.cn
 metric.acadsoc.com.cn
-disk.accord1key.cn
 apilog-web.acfun.cn
 jscode.acg68.com
 acgshenshicha.cn
@@ -755,6 +753,7 @@ anysdk.com
 aokkwzg.cn
 aoqinglv.cn
 us-behavior.apitd.net
+app-analytics-services.com
 app-measurement.com
 mobile.appchina.com
 appdriver.cn
@@ -772,6 +771,7 @@ st.appsad.cn
 adx.appsdk.com.cn
 appsdt.com
 appuu.cn
+static.appbox.apuslauncher.com
 www.aqianniao.com
 vinted-pl-gj32d.aqiwen.top
 aqvi.cn
@@ -835,7 +835,6 @@ titan01.babytree.com
 tracking.babytree.com
 game.baichuanhd.cn
 advertise.baicizhan.com
-a.baidinet.com
 union.baidu.cn
 a.baidu.com
 ada.baidu.com
@@ -989,6 +988,7 @@ baidustatic.com
 baifendian.com
 baigm.com
 www.baihe.com
+baihuwang.com
 baike.biz
 baitaiz.com
 baixing.com
@@ -1003,7 +1003,7 @@ n.baminw.com.cn
 q.baminw.com.cn
 active.baofeng.com
 midinfo.baofeng.com
-a.baomihua.com
+djs.baomihua.com
 resource.baomihua.com
 bartender.cc
 webpage.batianhu.cn
@@ -1204,6 +1204,7 @@ bwuwirv.cn
 creative.bxsnews.com
 bxwccii.cn
 correosytelegrafos.bxze.cn
+monitor-frontend-collector.a.bybit-aws.com
 bydcxdy.cn
 byscy.cn
 log-api.pangolin-sdk-toutiao-b.com.gtm.byte008.com
@@ -1232,7 +1233,6 @@ b1.c1km4.com
 dispatcher.c360dn.com
 dispatcher-bsy.c360dn.com
 download.caihong.com
-apollo.caixin.com
 gg.caixin.com
 pinggai5.caixin.com
 promote.caixin.com
@@ -1518,6 +1518,7 @@ dadbj.cn
 dadde.cn
 daddq.cn
 js1.dadiniu.cn
+dadzz.cn
 daede.cn
 dafdf.cn
 dakawm.cc
@@ -1641,7 +1642,6 @@ api.dewmobile.net
 downloada.dewmobile.net
 dexinyi.cn
 dfhag.cn
-dfkd.xyz
 newswifiapi.dfshurufa.com
 dg186.cn
 dgbaozhuang.cn
@@ -2421,7 +2421,6 @@ api-analytics-cn.huami.com
 api-analytics-de.huami.com
 api-analytics-in.huami.com
 api-analytics-sg.huami.com
-app-analytics.huami.com
 app-analytics-in.huami.com
 app-analytics-ru.huami.com
 app-analytics-sg.huami.com
@@ -2450,6 +2449,7 @@ drcn-weather.cloud.huawei.com
 hwa.his.huawei.com
 httpdns.huaweicloud.com
 matomo.huazhi.cloud
+matomocdn.huazhi.cloud
 hubcloud.com.cn
 hubiazhi.com
 hufajushi.top
@@ -2462,6 +2462,7 @@ u8.hujiang.com
 hulichuang.mobi
 log.hunantv.com
 log.v2.hunantv.com
+huoche.com.cn
 huoying666.com
 adx.hupu.com
 goblin.hupu.com
@@ -2750,7 +2751,6 @@ jhqku.cn
 jhzfwl.cn
 api.jialiangad.com
 8961.jianbihua.com
-wj.jiancai365.cn
 ads.jianchiapp.com
 xomk.jiangjunmh.top
 1.jiangzheba.com
@@ -2788,6 +2788,7 @@ jj123.com.cn
 img.jjiv.top
 jjjcyjj.cn
 jjyx.com
+jknrwe.cn
 jlifm.org.cn
 jmgehn.cn
 www.jmine.cn
@@ -3215,7 +3216,6 @@ lishuaibin.cn
 litchiads.com
 liujiahao6.cn
 v88.live800.com
-a.llysc.cn
 bffbdo.lmsae.cn
 lmwmm.com
 lnk0.com
@@ -3349,7 +3349,6 @@ tracking.m.mercedes-benz.com.cn
 tracking.t.mercedes-benz.com.cn
 mercor.cn
 a.mfcad.net
-1.mgff.com
 mgivkqk.cn
 mgs123.com
 odml.ad.intl.xiaomi.com.mgslb.com
@@ -3587,9 +3586,6 @@ redpaper-10006092.cos.myqcloud.com
 sfsafsadfjbbj-dsafjnb-1321533417.cos.ap-beijing.myqcloud.com
 analytics.api.myqnapcloud.cn
 saadsfds7.myshoplaza.com
-salewashop-pl.myshoplaza.com
-salewashopiing.myshoplaza.com
-salewashopping.myshoplaza.com
 analytics.myshoptago.com
 gafxa.code.mytanwan.com
 ldpgl.code.mytanwan.com
@@ -3599,6 +3595,7 @@ sy.flash.mytanwan.com
 ggs.myzaker.com
 gstat.myzaker.com
 aries.mzres.com
+na06.cn
 yiyuan.nagezan.net
 ytapi1.nagezan.net
 m.nanyangqiaoxiang.cn
@@ -3869,7 +3866,6 @@ puqer.cn
 analytics.pushgrid.net
 ums.pushpia.cn
 ssp.putaojiu.com
-apple.pvxt.net
 dm.pw0.cn
 pxhuiben.com
 cdn.pyadx.com
@@ -3880,6 +3876,8 @@ q36.cn
 www.q4ee.top
 q8q.icu
 qbdgame.com
+139520.aioc.qbgxl.com
+912648.aioc.qbgxl.com
 uplog.qbox.me
 qchannel04.cn
 qcjslm.com
@@ -4175,7 +4173,6 @@ upload-up.qtfm.cn
 qtmdzsj.cn
 wwwv.smbc-card.cuption.qtqht.cn
 qcc.qualcomm.com
-qcc.qccgeo.qualcomm.com
 quanmama.com
 rhtc.quanminyouxi.cn
 adtrack.quark.cn
@@ -4210,7 +4207,6 @@ msg-intl.qy.net
 msgv6.qy.net
 ad.qyer.com
 hades.qyer.com
-u1.qyxxpd.com
 qziuwzn.cn
 r75tia.cn
 a2.rabbitpre.com
@@ -4286,7 +4282,6 @@ vinted-pl-gj32d.ryuji.top
 rz261.cn
 rzfdbsn.cn
 rzflhxn.cn
-rzlib.net
 rznscya.cn
 rzsgxmm.cn
 s11.cn
@@ -4593,6 +4588,7 @@ js.spreton.com
 y1.spreton.com
 olx-pol-kxlsw2.spz24.top
 sq59.cn
+srbzw.cn
 srcaunu.cn
 srldkqj.cn
 show.ssports.com
@@ -4826,7 +4822,6 @@ tracking.tdk.com.cn
 metrics.teamviewer.cn
 1.tecbbs.com
 tongji.techweb.com.cn
-paypay-ne.teehouse.cn
 inpost-pl-pacid273jks.tejiamai.top
 teleagrme.cn
 telegrpzn.cn
@@ -5156,7 +5151,6 @@ vinsgcs.com
 n-st.vip.com
 ads.vipbaihe.com
 in.vipliangmei.com
-ckg.vipyl.com
 smetrics.visitsingapore.com.cn
 bhwkju.vivo.com
 adlog.vivo.com.cn
@@ -5407,7 +5401,6 @@ wkanx.com
 lm1.wkpcw.cn
 opensdk.wlanbanlv.com
 wlhcb.cn
-wm23.com
 wmmax.com
 wn68din.cn
 www.wndlkj.com
@@ -5728,7 +5721,6 @@ hao123.xywy.com
 stat.xywy.com
 stat-y.xywy.com
 stat-z.xywy.com
-xz0205.cn
 vinted-pl-gj32d.xz5.xyz
 cp.xz6.com
 xz618.com
@@ -5905,9 +5897,7 @@ gehhfzjj.yoxnx.cn
 izoghj.yoxnx.cn
 lsaseu.yoxnx.cn
 mqyly.yoxnx.cn
-ostww.yoxnx.cn
 ujhqmwfpw.yoxnx.cn
-wihcxtzwre.yoxnx.cn
 yzfdf.yoxnx.cn
 yoyi.tv
 analysis.yozocloud.cn
@@ -5985,7 +5975,6 @@ api-analytics-cn3.zepp.com
 api-analytics-de.zepp.com
 api-analytics-us.zepp.com
 api-analytics-us3.zepp.com
-app-analytics.zepp.com
 app-analytics-de.zepp.com
 app-analytics-ru.zepp.com
 app-analytics-sg.zepp.com
