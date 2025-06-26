@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20250626002900
-# Last modified: 2025/06/26 00:29:00
-# Blocked domains: 6331
+# Version: 20250626094728
+# Last modified: 2025/06/26 09:47:28
+# Blocked domains: 6323
 #
 local=/kwcdn.000dn.com/
 local=/kwcscdn.000dn.com/
@@ -628,7 +628,6 @@ local=/report-north-america.agora.io/
 local=/report-oversea.agora.io/
 local=/report-oversea2.agora.io/
 local=/statscollector-1.agora.io/
-local=/statscollector-1-asia.agora.io/
 local=/statscollector-1-north-america.agora.io/
 local=/tracking.agora.io/
 local=/webcollector-rtm.agora.io/
@@ -1885,7 +1884,6 @@ local=/excsyrv.cn/
 local=/exevcl.cn/
 local=/ad.exyws.org/
 local=/veepai-device-log.eye4.cn/
-local=/qp.ezfxpuo.cn/
 local=/g.f11w.com/
 local=/sccdn.f2zd.com/
 local=/g.f5gh.com/
@@ -2434,7 +2432,6 @@ local=/hsrgnac.cn/
 local=/hstpnetwork.com/
 local=/g.hsw.cn/
 local=/hswfj.cn/
-local=/hsych.com/
 local=/ht55.cn/
 local=/hthvc.icu/
 local=/httpdns.pro/
@@ -2470,7 +2467,6 @@ local=/huanqiucaijing.cn/
 local=/ads.huantest.com/
 local=/drcn-weather.cloud.huawei.com/
 local=/hwa.his.huawei.com/
-local=/rnd-aresocean-commercial.huawei.com/
 local=/httpdns.huaweicloud.com/
 local=/uba.huaweicloud.com/
 local=/hubcloud.com.cn/
@@ -2937,6 +2933,7 @@ local=/rr.knet.cn/
 local=/ss.knet.cn/
 local=/knliylh.cn/
 local=/ofkqiy.knowfashionstyle.com/
+local=/kokojia.com/
 local=/info.kollmorgen.cn/
 local=/kolsh.cn/
 local=/dpi.networkorder.komect.com/
@@ -3210,7 +3207,6 @@ local=/fsr.lenovomm.com/
 local=/mb.lenovomm.com/
 local=/prw.lenovomm.com/
 local=/pushapi.lenovomm.com/
-local=/sdac.lenovomm.com/
 local=/susapi.lenovomm.com/
 local=/uss-pid.lenovomm.com/
 local=/lenzmx.com/
@@ -3681,7 +3677,6 @@ local=/ggdm1.nhaidu.net/
 local=/nhjsw.cn/
 local=/nieniba.com/
 local=/nimaxrv.cn/
-local=/down.nishuoa.com/
 local=/nisihu.com.cn/
 local=/nithisp.cn/
 local=/taobao.niucha.ren/
@@ -5415,7 +5410,6 @@ local=/mx-vcode-api.vivoglobal.com/
 local=/mx-vcode-od.vivoglobal.com/
 local=/mx-vcode-or.vivoglobal.com/
 local=/onrt-stsdk.vivoglobal.com/
-local=/pnrt-stsdk.vivoglobal.com/
 local=/ro-up.vivoglobal.com/
 local=/ru-commonitor-stsdk.vivoglobal.com/
 local=/ru-comonrt-stsdk.vivoglobal.com/
@@ -5751,7 +5745,6 @@ local=/stats.music.xiaomi.com/
 local=/storeconfig.mistat.intl.xiaomi.com/
 local=/sys.tv.india.xiaomi.com/
 local=/t1.market.xiaomi.com/
-local=/t17.market.xiaomi.com/
 local=/t2.market.xiaomi.com/
 local=/t3.market.xiaomi.com/
 local=/t4.market.xiaomi.com/
@@ -6074,7 +6067,6 @@ local=/yoyi.tv/
 local=/analysis.yozocloud.cn/
 local=/yqlxkzs.cn/
 local=/ad-material.ys7.com/
-local=/log.ys7.com/
 local=/ysb76.com/
 local=/www.ysbaojia.com/
 local=/daima.ysdui.com/
