@@ -3,9 +3,9 @@
 # Description: 适用于 Clash 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockclashlite.list
-# Version: 20250627162923
-# Last modified: 2025/06/27 16:29:23
-# Blocked domains: 6367
+# Version: 20250628002754
+# Last modified: 2025/06/28 00:27:54
+# Blocked domains: 6355
 #
 DOMAIN-SUFFIX,kwcdn.000dn.com
 DOMAIN-SUFFIX,kwcscdn.000dn.com
@@ -362,7 +362,6 @@ DOMAIN-SUFFIX,52aoteman.com
 DOMAIN-SUFFIX,52kuwang.cn
 DOMAIN-SUFFIX,52pk.com
 DOMAIN-SUFFIX,adm.52swine.com
-DOMAIN-SUFFIX,52wmb.com
 DOMAIN-SUFFIX,slzs.52xiyou.com
 DOMAIN-SUFFIX,api.52youtu.com
 DOMAIN-SUFFIX,52z.com
@@ -529,6 +528,7 @@ DOMAIN-SUFFIX,a1.99933.cn
 DOMAIN-SUFFIX,a1.99966.cn
 DOMAIN-SUFFIX,999aa666bb.com
 DOMAIN-SUFFIX,999bb222ww.com
+DOMAIN-SUFFIX,999d.com
 DOMAIN-SUFFIX,999xx333kk.com
 DOMAIN-SUFFIX,999xx999kk.com
 DOMAIN-SUFFIX,99box.com
@@ -1674,9 +1674,6 @@ DOMAIN-SUFFIX,imonitor.dhgate.com
 DOMAIN-SUFFIX,dhlmyorder82662-info-can.com
 DOMAIN-SUFFIX,dianru.com
 DOMAIN-SUFFIX,app.fota.digitimetech.com
-DOMAIN-SUFFIX,dijitalhizmetweb-ziraatbireysel.com
-DOMAIN-SUFFIX,dijitalwebgiris-ziraatbireysel.com
-DOMAIN-SUFFIX,dijitalwebhizmet-ziraatbireysel.com
 DOMAIN-SUFFIX,dimfarlow.com
 DOMAIN-SUFFIX,bea-s.dinghuoche.com
 DOMAIN-SUFFIX,resolver.dingtalk.com
@@ -1793,7 +1790,6 @@ DOMAIN-SUFFIX,dvtednm.cn
 DOMAIN-SUFFIX,dvzk66.cn
 DOMAIN-SUFFIX,dweixin.cn
 DOMAIN-SUFFIX,untitled.dwstatic.com
-DOMAIN-SUFFIX,dwwmaster.com
 DOMAIN-SUFFIX,dxpmedia.com
 DOMAIN-SUFFIX,2021.dxsbb.com
 DOMAIN-SUFFIX,dxwsty.cn
@@ -2125,7 +2121,6 @@ DOMAIN-SUFFIX,smkt.edm.globalsources.com
 DOMAIN-SUFFIX,summit.edm.globalsources.com
 DOMAIN-SUFFIX,techgifts.tradeshow.globalsources.com
 DOMAIN-SUFFIX,tradeshow.edm.globalsources.com
-DOMAIN-SUFFIX,globalwits.cn
 DOMAIN-SUFFIX,1.glook.cn
 DOMAIN-SUFFIX,sensorsdata.glowapp.vip
 DOMAIN-SUFFIX,glwxw.net
@@ -2271,7 +2266,6 @@ DOMAIN-SUFFIX,hashnest.com
 DOMAIN-SUFFIX,a.hbf23.cn
 DOMAIN-SUFFIX,img1.hblds.com
 DOMAIN-SUFFIX,hbqabbg.cn
-DOMAIN-SUFFIX,hbwjm.com
 DOMAIN-SUFFIX,hbzhenquan.cn
 DOMAIN-SUFFIX,hdxyj.icu
 DOMAIN-SUFFIX,stat.hebnews.cn
@@ -2608,7 +2602,6 @@ DOMAIN-SUFFIX,iimedia.cn
 DOMAIN-SUFFIX,3389.iis7.com
 DOMAIN-SUFFIX,www.iiyout.cn
 DOMAIN-SUFFIX,ijinshan.com
-DOMAIN-SUFFIX,ikxnauqa.com
 DOMAIN-SUFFIX,static.ilclock.com
 DOMAIN-SUFFIX,ili100.cn
 DOMAIN-SUFFIX,ilkwork.com
@@ -3702,7 +3695,6 @@ DOMAIN-SUFFIX,ngmco.net
 DOMAIN-SUFFIX,ggdm1.nhaidu.net
 DOMAIN-SUFFIX,nhjsw.cn
 DOMAIN-SUFFIX,nimaxrv.cn
-DOMAIN-SUFFIX,nishabii.xyz
 DOMAIN-SUFFIX,down.nishuoa.com
 DOMAIN-SUFFIX,nisihu.com.cn
 DOMAIN-SUFFIX,nithisp.cn
@@ -4788,7 +4780,6 @@ DOMAIN-SUFFIX,svdpgmt.cn
 DOMAIN-SUFFIX,analytics.sve.cc
 DOMAIN-SUFFIX,api.sve.cc
 DOMAIN-SUFFIX,api.taboola.sve.cc
-DOMAIN-SUFFIX,sw2031.com
 DOMAIN-SUFFIX,fr.swissquote.cn
 DOMAIN-SUFFIX,sxk9m8x.cn
 DOMAIN-SUFFIX,sycbbs.com
@@ -5365,7 +5356,6 @@ DOMAIN-SUFFIX,cname-de-stsdk.vivoglobal.com
 DOMAIN-SUFFIX,cname-in-bom01-nginxpool03.vivoglobal.com
 DOMAIN-SUFFIX,cname-sin01-stsdk09.vivoglobal.com
 DOMAIN-SUFFIX,co-domaincfg.vivoglobal.com
-DOMAIN-SUFFIX,co-err-up.vivoglobal.com
 DOMAIN-SUFFIX,co-onrt-stsdk.vivoglobal.com
 DOMAIN-SUFFIX,co-ort-stsdk.vivoglobal.com
 DOMAIN-SUFFIX,co-pnrt-stsdk.vivoglobal.com
@@ -5427,7 +5417,6 @@ DOMAIN-SUFFIX,kz-onrt-stsdk.vivoglobal.com
 DOMAIN-SUFFIX,kz-ort-stsdk.vivoglobal.com
 DOMAIN-SUFFIX,kz-romsp-unifyconfig.vivoglobal.com
 DOMAIN-SUFFIX,kz-st-exappupgrade.vivoglobal.com
-DOMAIN-SUFFIX,kz-st-sl.vivoglobal.com
 DOMAIN-SUFFIX,kz-stsdk.vivoglobal.com
 DOMAIN-SUFFIX,kz-vcode-api.vivoglobal.com
 DOMAIN-SUFFIX,kz-vcode-od.vivoglobal.com
@@ -6306,7 +6295,6 @@ DOMAIN-SUFFIX,vcs.zijieapi.com
 DOMAIN-SUFFIX,view.zijieapi.com
 DOMAIN-SUFFIX,datasink.ziniao.com
 DOMAIN-SUFFIX,zio8.icu
-DOMAIN-SUFFIX,ziraatonay.vip
 DOMAIN-SUFFIX,s.zixuntop.com
 DOMAIN-SUFFIX,zjib0.icu
 DOMAIN-SUFFIX,dig.zjurl.cn
