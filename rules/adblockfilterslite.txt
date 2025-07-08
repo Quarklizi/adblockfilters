@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilterslite.txt
-! Version: 20250708002841
-! Last modified: 2025/07/08 00:28:41
-! Blocked Filters: 42492
+! Version: 20250708094858
+! Last modified: 2025/07/08 09:48:58
+! Blocked Filters: 42494
 !
 ###AC_ad
 ###AD_160
@@ -21882,6 +21882,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /tag.min.js$script,redirect=noopjs,domain=vipleague.tv,important
 /tag/proxy?id=G-
 /tag/tag.jsp?
+/tag?name=PageView$xmlhttprequest
 /tag?tags=
 /tagAnalyticscnil.php
 /tagCNIL.js
@@ -23875,6 +23876,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 ://sli.*/imp?s=$image
 ://sportframe*.co^
 ://sportframe*.org^
+://stat.*/pageview/$xmlhttprequest
 ://stats.*/code/e.js
 ://t.order.*/r/?id=$image
 ://t.targito.
@@ -38918,8 +38920,8 @@ zzzyk.com###Tinfo
 ||api-*.hismarttv.com^
 ||api-v*.soundcloud.com/audio-ads?
 ||api.*.hismarttv.com^
+||api.bilibili.com/x/*/res/locs?$~script
 ||api.bilibili.com/x/ad/
-||api.bilibili.com/x/web-show/res/locs?$~script
 ||api.ea3w.com/hits.js
 ||api.invideo.io/v3/send_analytics_event
 ||api.live.bilibili.com/*/Banner
