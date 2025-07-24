@@ -3,8 +3,8 @@
 # Description: 适用于 Clash 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockclashlite.list
-# Version: 20250724003020
-# Last modified: 2025/07/24 00:30:20
+# Version: 20250724095446
+# Last modified: 2025/07/24 09:54:46
 # Blocked domains: 6334
 #
 DOMAIN-SUFFIX,kwcdn.000dn.com
@@ -1577,6 +1577,7 @@ DOMAIN-SUFFIX,daque.cn
 DOMAIN-SUFFIX,daraz.com
 DOMAIN-SUFFIX,net.daraz.lk
 DOMAIN-SUFFIX,net.daraz.pk
+DOMAIN-SUFFIX,clickserve.dartsearch.net
 DOMAIN-SUFFIX,dashet.com
 DOMAIN-SUFFIX,data-huya2-live-hd-center.win
 DOMAIN-SUFFIX,gate.datacaciques.com
@@ -1753,7 +1754,6 @@ DOMAIN-SUFFIX,tx2play2.douyucdn.cn
 DOMAIN-SUFFIX,dotcounter.douyutv.com
 DOMAIN-SUFFIX,dpjzzgw.cn
 DOMAIN-SUFFIX,drdwy.com
-DOMAIN-SUFFIX,drivethelife.com
 DOMAIN-SUFFIX,email-verification-tbw2hsczpwmnv0lvrtfpuq-authentification.on.drv.tw
 DOMAIN-SUFFIX,dsfh2.icu
 DOMAIN-SUFFIX,dsj66.cn
@@ -4540,7 +4540,7 @@ DOMAIN-SUFFIX,rs.sinajs.cn
 DOMAIN-SUFFIX,simg.sinajs.cn
 DOMAIN-SUFFIX,tjs.sjs.sinajs.cn
 DOMAIN-SUFFIX,sinawap.com
-DOMAIN-SUFFIX,siom.ac.cn
+DOMAIN-SUFFIX,mail.siom.ac.cn
 DOMAIN-SUFFIX,sdk.sipujia.cn
 DOMAIN-SUFFIX,sitesite.cn
 DOMAIN-SUFFIX,analytics.sixt.cn
