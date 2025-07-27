@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilterslite.txt
-! Version: 20250727002703
-! Last modified: 2025/07/27 00:27:03
-! Blocked Filters: 42195
+! Version: 20250727100342
+! Last modified: 2025/07/27 10:03:42
+! Blocked Filters: 42197
 !
 ###AC_ad
 ###AD_160
@@ -20183,6 +20183,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /js/fpu3/pu4.min.js
 /js/ga_event_
 /js/gd.js
+/js/generateStats-min.js
 /js/gg0.js
 /js/gg123/*
 /js/ggtop.js
@@ -20215,6 +20216,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /js/pfad*.js
 /js/piaofu_bet.
 /js/pingbi.js
+/js/popunder.js$third-party
 /js/popunderjs/init.js^
 /js/ppndr.$domain=analdin.com|xozilla.*|xhand.com
 /js/profit.js$~third-party
