@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilterslite.txt
-! Version: 20250729003047
-! Last modified: 2025/07/29 00:30:47
-! Blocked Filters: 42476
+! Version: 20250729100649
+! Last modified: 2025/07/29 10:06:49
+! Blocked Filters: 42471
 !
 ###AC_ad
 ###AD_160
@@ -35964,11 +35964,6 @@ soccerinhd.com,limpaso.com#%#//scriptlet('prevent-fetch', '/adsbygoogle|securepu
 soccerinhd.com,worldsports.me,freckledine.net,buffstreams.app,sanet.lc,sons-stream.com,anarchy-stream.com,nativesurge.info,sportsonline.*,mega4upload.com,1stream.eu###dontfoid
 soccerlive24.pl,estadion.pl##a[href="/go/wp-pilot"] > img
 soft.macx.cn#@##googlead
-soft98.ir,~forum.soft98.ir#$##abddh > * { display: none !important; }
-soft98.ir,~forum.soft98.ir#$#[data-href^="https://padvish.com/"] { display: none !important; }
-soft98.ir,~forum.soft98.ir#$#div:has(> header + div > [data-href="https://cdn.hostdl.com/goto/soft98"]) { display: none !important; }
-soft98.ir,~forum.soft98.ir#$#section:has(> header + div > div > div > a[href*="utm_"]) { display: none !important; }
-soft98.ir,~forum.soft98.ir#%#//scriptlet('abort-on-stack-trace', 'NodeList.prototype.forEach', '/\bRi[@\s][^\t]+\/application\.m[a-z0-9]+n\.packed\.js/')
 softonic.cn,softonic.com,softonic.pl,softonic.nl,softonic.com.tr,softonic.ru,softonic.jp,softonic.com##.sam-slot
 softoxin.com,sozai-good.com#@#.ad_block
 softwareaccountant.com,freecoursesite.com,xscholarship.com,psdly.com##.widget_media_image
