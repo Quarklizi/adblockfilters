@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20250815002915
-! Last modified: 2025/08/15 00:29:15
-! Blocked domains: 6306
+! Version: 20250815094946
+! Last modified: 2025/08/15 09:49:46
+! Blocked domains: 6305
 ! unBlocked domains: 16
 !
 ||kwcdn.000dn.com^
@@ -39,6 +39,7 @@
 ||0x5.me^
 ||1-bmo-client-login.com^
 ||10000xing.cn^
+||1717.1000uc.com^
 ||enrichgw.10010.com^
 ||smartad.10010.com^
 ||1.1010pic.com^
@@ -46,6 +47,7 @@
 ||stat.10jqka.com.cn^
 ||v.110route.cn^
 ||ytx-file.110route.cn^
+||soft.110route.com^
 ||1.11130.com.cn^
 ||oss-asq-static.11222.cn^
 ||1.11467.com^
@@ -109,7 +111,6 @@
 ||crashlytics.163.com^
 ||du.163.com^
 ||e-p4p.163.com^
-||fa.163.com^
 ||fp-upload.dun.163.com^
 ||g.163.com^
 ||g1.163.com^
@@ -533,7 +534,6 @@
 ||a1.99966.cn^
 ||999aa666bb.com^
 ||999bb222ww.com^
-||999d.com^
 ||999xx333kk.com^
 ||999xx999kk.com^
 ||99box.com^
@@ -542,7 +542,6 @@
 ||9ics.cn^
 ||adsdk.9imobi.com^
 ||9kh5b.cn^
-||9nac0s.asia^
 ||9wee.com^
 ||log.9wuli.com^
 ||9xxy.icu^
@@ -780,7 +779,6 @@
 ||jpg1.oss-cn-beijing.aliyuncs.com^
 ||jun01.oss-cn-beijing.aliyuncs.com^
 ||kmmgoogle.oss-ap-southeast-1.aliyuncs.com^
-||lazada-ad-workstation.oss-ap-southeast-1.aliyuncs.com^
 ||logtail-release.oss-cn-hangzhou.aliyuncs.com^
 ||mobantong.oss-cn-hangzhou.aliyuncs.com^
 ||o2o-ad-dev.oss-cn-shanghai.aliyuncs.com^
@@ -2798,6 +2796,7 @@
 ||wj.jiancai365.cn^
 ||ads.jianchiapp.com^
 ||xomk.jiangjunmh.top^
+||acc.jiangsujiaxue.com^
 ||ahm.jiankang123.net^
 ||jiankongbao.com^
 ||tr.jianshu.com^
@@ -3178,7 +3177,6 @@
 ||stat.le.com^
 ||api.leancloud.cn^
 ||trace.ledu.com^
-||analysis.leetcode.cn^
 ||lehaitv.com^
 ||ads-api-o.api.leiniao.com^
 ||euads-o.api.leiniao.com^
@@ -4835,7 +4833,6 @@
 ||adashx4sg.ut.taobao.com^
 ||adashx4yt.m.taobao.com^
 ||adashxgc.ut.taobao.com^
-||ae-alimelog.taobao.com^
 ||agoodm.m.taobao.com^
 ||ai.taobao.com^
 ||ai.m.taobao.com^
@@ -6052,6 +6049,7 @@
 ||ys630.com^
 ||ad-material.ys7.com^
 ||log.ys7.com^
+||www.ysbaojia.com^
 ||ysjwj.com^
 ||ysqlmpo.cn^
 ||www.yuanchengxiezuo.com^
@@ -6125,6 +6123,7 @@
 ||zapads.zapak.com^
 ||zazhipu.com^
 ||p3.zbjimg.com^
+||p5.zbjimg.com^
 ||p6.zbjimg.com^
 ||xue.zbyw.cn^
 ||zca31.com^
