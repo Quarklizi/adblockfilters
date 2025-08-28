@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20250828162806
-! Last modified: 2025/08/28 16:28:06
-! Blocked domains: 8100
+! Version: 20250829002629
+! Last modified: 2025/08/29 00:26:29
+! Blocked domains: 8098
 ! unBlocked domains: 16
 !
 ||kwcdn.000dn.com^
@@ -367,6 +367,7 @@
 ||52pk.com^
 ||adm.52swine.com^
 ||slzs.52xiyou.com^
+||api.52youtu.com^
 ||52z.com^
 ||a.52zxw.com^
 ||53kf.com^
@@ -2126,7 +2127,6 @@
 ||weerrtyy-i4on0bpgim.edgeone.app^
 ||ediuschina.com^
 ||eefilutulo.digital^
-||analytics.eekang.net^
 ||eexlgyn.cn^
 ||effectivehealthy.cn^
 ||efusc.com^
@@ -2218,6 +2218,7 @@
 ||eyshiv.pro^
 ||eyusuduf.com^
 ||ezdsqqtj.com^
+||qp.ezfxpuo.cn^
 ||ezuvnl.com^
 ||g.f11w.com^
 ||sccdn.f2zd.com^
@@ -2904,7 +2905,6 @@
 ||auth-launcher-na.hismarttv.com^
 ||auth-launcher-sa.hismarttv.com^
 ||auth-na.hismarttv.com^
-||auth-phone-afr.hismarttv.com^
 ||auth-phone-ap.hismarttv.com^
 ||auth-phone-na.hismarttv.com^
 ||auth-sa.hismarttv.com^
@@ -2994,6 +2994,7 @@
 ||hstpnetwork.com^
 ||g.hsw.cn^
 ||hswfj.cn^
+||hsych.com^
 ||ht55.cn^
 ||hthvc.icu^
 ||httpdns.pro^
@@ -4472,7 +4473,6 @@
 ||api.mobcells.com^
 ||mobgi.com^
 ||mobifobi.com^
-||mobifonex.cfd^
 ||ent.mobileanjian.com^
 ||mobilebeeate.today^
 ||mobisage.cn^
@@ -4687,6 +4687,7 @@
 ||nimaxrv.cn^
 ||nimimu.com^
 ||ninebox.cn^
+||down.nishuoa.com^
 ||nisihu.com.cn^
 ||nitanoa.pro^
 ||nithisp.cn^
@@ -5785,7 +5786,6 @@
 ||jpaasne.e.shifen.com^
 ||shijixinrui.cn^
 ||shilian168.cn^
-||log.shimo.im^
 ||analysis.shixunsuda.com^
 ||shoesvalley.cn^
 ||tracking.shopee.cn^
@@ -7033,7 +7033,6 @@
 ||tr-vcode-api.vivoglobal.com^
 ||tr-vcode-od.vivoglobal.com^
 ||tr-vcode-or.vivoglobal.com^
-||zasc-vcode-od.vivoglobal.com^
 ||vjiit.info^
 ||vlgkotr.cn^
 ||vlion.cn^
@@ -7410,7 +7409,6 @@
 ||storeconfig.mistat.intl.xiaomi.com^
 ||sys.tv.india.xiaomi.com^
 ||t1.market.xiaomi.com^
-||t17.market.xiaomi.com^
 ||t2.market.xiaomi.com^
 ||t3.market.xiaomi.com^
 ||t4.market.xiaomi.com^
@@ -7761,12 +7759,12 @@
 ||analysis.yozocloud.cn^
 ||ys630.com^
 ||ad-material.ys7.com^
+||log.ys7.com^
 ||www.ysbaojia.com^
 ||ysjwj.com^
 ||ysqlmpo.cn^
 ||yswxhjh.pro^
 ||www.yuanchengxiezuo.com^
-||clog.yuanfudao.com^
 ||clog4.yuanfudao.com^
 ||yuanlin15.cn^
 ||overseauspider.yuanshen.com^
