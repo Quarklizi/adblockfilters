@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilterslite.txt
-! Version: 20250903092640
-! Last modified: 2025/09/03 09:26:40
-! Blocked Filters: 42335
+! Version: 20250903162656
+! Last modified: 2025/09/03 16:26:56
+! Blocked Filters: 42331
 !
 ###AC_ad
 ###AD_160
@@ -11273,6 +11273,7 @@
 ##.htl-ad
 ##.htl-ad-placeholder
 ##.htl-inarticle-container
+##.htlad-GL_Adhesion
 ##.html-advertisement
 ##.hyperAd
 ##.hzxld
@@ -25652,7 +25653,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=forum.release-apk.com,stealth,important
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=fox.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freebinchecker.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freebnbcoin.com|exotictgirl.blogspot.com|bospedia.com|rockmods.net|aiimsneetshortnotes.com|arabseed.onl|miuiku.com|tatangga.com|flash-firmware.blogspot.com|rumahit.id|romfirmware.com|gsmfirmware.net|akwam.*|fc-lc.com|fc.lc|note1s.com|paste1s.com|ipacrack.com|traffic1s.com|adnews.me|ak4eg.*|xn--mgba7fjn.*|akw.to|ak4ar.*|nguyenvanbao.com|ak.sv|akw.cam|indokontraktor.com|shahee4u.cam|batch-kun.com|shahid4u.*|neosatsu.com|shahidd4u.net
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freebnbcoin.com|exotictgirl.blogspot.com|bospedia.com|rockmods.net|aiimsneetshortnotes.com|arabseed.onl|miuiku.com|tatangga.com|flash-firmware.blogspot.com|rumahit.id|romfirmware.com|gsmfirmware.net|akwam.*|fc-lc.com|fc.lc|note1s.com|paste1s.com|ipacrack.com|traffic1s.com|adnews.me|ak4eg.*|xn--mgba7fjn.*|akw.to|ak4ar.*|nguyenvanbao.com|ak.sv|akw.cam|indokontraktor.com|shahee4u.cam|batch-kun.com|shahid4u.*|neosatsu.com|shahidd4u.net|shahiid4u.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freecoursesonline.me
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freeiptvgen.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=freemagazines.top
@@ -25690,7 +25691,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=hentaigasm.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=hentaihaven.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=hentaipig.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=hindustantimes.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=hiraethtranslation.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=howdy.id
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=hqq.ac
@@ -26043,7 +26043,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=getthit.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=googledrivelinks.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=hacksnation.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=hindustantimes.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=howkteam.vn
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=incredibox.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=infinityscans.xyz|infinityscans.net
@@ -28882,6 +28881,11 @@ chinaz.com##.txtAdBox
 chinaz.com##div[style^="width:300px;height:250px;"]
 chinaz.com,mydrivers.com,oschina.net##a[href*="click.aliyun.com"]
 chinaz.com,ofweek.com,yawin.cn##.adtext
+chineseinla.com###weixin_ads2
+chineseinla.com##.deal_discount
+chineseinla.com##.forum_banner_ads
+chineseinla.com##.text-ads-col
+chineseinla.com##div[style^="position:absolute;"][style$=":0px;top:30px;"]
 chiphell.com###diy2 + div
 chjtx.com,fooish.com###ad
 chongbuluo.com###add
@@ -33942,7 +33946,6 @@ new-fmovies.cam,123movies.domains,new-123movies.live,gomovies-online.link,new-12
 new-game-apk.com/wp-content/uploads/2017/*_SLUT_18_*.gif
 new-movies123.link,gomovies.tube##a[href^="/user/profile/premium-membership"] > img
 new.qq.com#@##TopAd
-newcastleherald.com.au##div[id^="mrec-"]
 newcger.com##.banner_recom
 newduba.cn###jq_youxi
 newindian.in,watchinamerica.com##.deskad
@@ -35475,9 +35478,9 @@ sg169.com##.Mappdiv
 sg169.com##.jy-pos-3
 sgcarmart##.dealer_banner
 sgcn.com,wangjing.cn##.fad
-shahidd4u.net,neosatsu.com,batch-kun.com,shahee4u.cam,indokontraktor.com,akw.cam,ak.sv,nguyenvanbao.com,ak4ar.*,akw.to,xn--mgba7fjn.*,ak4eg.*,adnews.me,traffic1s.com,ipacrack.com,oii.io,paste1s.com,note1s.com,fc.lc#$#body { overflow: auto !important; }
-shahidd4u.net,neosatsu.com,shahee4u.cam,indokontraktor.com#$#.ignielAdBlock { display: none !important; }
-shahidd4u.net,neosatsu.com,shahid4u.*,batch-kun.com,iosviet.com,shahee4u.cam,indokontraktor.com,freebnbcoin.com,exotictgirl.blogspot.com,adnews.me,traffic1s.com,ipacrack.com,oii.io,paste1s.com,note1s.com,fc.lc,fc-lc.com,akwam.*,arabseed.*,miuiku.com,tatangga.com,flash-firmware.blogspot.com,rumahit.id#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'ignielAdBlock')
+shahiid4u.net,shahidd4u.net,neosatsu.com,batch-kun.com,shahee4u.cam,indokontraktor.com,akw.cam,ak.sv,nguyenvanbao.com,ak4ar.*,akw.to,xn--mgba7fjn.*,ak4eg.*,adnews.me,traffic1s.com,ipacrack.com,oii.io,paste1s.com,note1s.com,fc.lc#$#body { overflow: auto !important; }
+shahiid4u.net,shahidd4u.net,neosatsu.com,shahee4u.cam,indokontraktor.com#$#.ignielAdBlock { display: none !important; }
+shahiid4u.net,shahidd4u.net,neosatsu.com,shahid4u.*,batch-kun.com,iosviet.com,shahee4u.cam,indokontraktor.com,freebnbcoin.com,exotictgirl.blogspot.com,adnews.me,traffic1s.com,ipacrack.com,oii.io,paste1s.com,note1s.com,fc.lc,fc-lc.com,akwam.*,arabseed.*,miuiku.com,tatangga.com,flash-firmware.blogspot.com,rumahit.id#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'ignielAdBlock')
 shameless.com,imguur.pictures,imgdone.com,xxxdessert.com,xaoutchouc.live,simply-hentai.com,akaihentai.com#%#(function(){Object.defineProperty(window, 'ExoLoader', { get: function() { return; } }); var c=document.addEventListener;document.addEventListener=function(a,b,d,e){"getexoloader"!=a&&-1==b.toString().indexOf('loader')&&c(a,b,d,e)}.bind(document);})();
 shangyexinzhi.com##.hang-baidu_adv
 shangyexinzhi.com##.img2text-adv_wrapper
@@ -39056,7 +39059,6 @@ zzzyk.com###Tinfo
 ||bkjia.com/bkjia/js/subnavtop.js
 ||block.s*block.com^
 ||block.s*block.com^$third-party
-||blocker.crabdance.com^$domain=sonixgvn.net
 ||blog.sina.com.cn/lm/mini/
 ||blueidea.com/js/ajs.js
 ||bluemedia*/sw.js
@@ -39521,6 +39523,7 @@ zzzyk.com###Tinfo
 ||dianxin.com^$third-party
 ||diaoyu123.com/cpro/show.js
 ||dict.youdao.com/vip/privilege/show/V*?bannerType=fanyiTop$domain=fanyi.youdao.com
+||dig.chouti.com/advert
 ||dimtown.com/adimg/
 ||dingxiang-inc.com/ctu-group/constid-js/index.js
 ||dioguitar23.*/images/*.gif
@@ -39685,9 +39688,6 @@ zzzyk.com###Tinfo
 ||elecfans.com/skin-*ad_
 ||elecfans.com/static/home_ad/
 ||elecfans.com/webapi/advertisement/
-||embed.wcostream.com^$replace=/const MAX_CLOSES = \d+;/const MAX_CLOSES = 0;/,subdocument,document
-||embed.wcostream.com^$replace=/hideAll\(\);/hideAll();try{if(typeof doClose==="function"){doClose();}}catch(e){};/,subdocument,document
-||embed.wcostream.com^$replace=/if \(closeBtn\.disabled\) return;//,subdocument,document
 ||emoney.cn/www/officalWebStatic/js/slideAd.js
 ||enet.com.cn/counter.php
 ||eng24.com/js_new/copyright_float.
@@ -41055,8 +41055,6 @@ zzzyk.com###Tinfo
 ||pixelapi-*.cs.mysamba.tv^
 ||pjcn.org^$third-party
 ||pjtime.com/js/show_ad
-||pkvs.com/public/300/
-||pkvs.com/public/as.js
 ||pl520.com^$third-party
 ||play*.flashx.pw/filter
 ||player-feedback*.glomex.*^
@@ -41331,8 +41329,6 @@ zzzyk.com###Tinfo
 ||s1.bdstatic.com/r/www/cache/biz/ecom/common/api/$script
 ||s8.pw^$third-party
 ||safebeta.cn/gg/sefabeta_*js
-||salesmartly.com/client/log/
-||salesmartly.com/client/station/log?
 ||sam*.baby-kingdom.com^
 ||same*.stockstar.com^
 ||saohu*.com/config/json/cctv.json?
