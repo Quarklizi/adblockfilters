@@ -3,8 +3,8 @@
 # Description: 适用于 Clash 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockclashlite.list
-# Version: 20250920002456
-# Last modified: 2025/09/20 00:24:56
+# Version: 20250920092534
+# Last modified: 2025/09/20 09:25:34
 # Blocked domains: 6159
 #
 DOMAIN-SUFFIX,kwcdn.000dn.com
@@ -102,7 +102,6 @@ DOMAIN-SUFFIX,crash.163.com
 DOMAIN-SUFFIX,crashlytics.163.com
 DOMAIN-SUFFIX,du.163.com
 DOMAIN-SUFFIX,e-p4p.163.com
-DOMAIN-SUFFIX,fa.163.com
 DOMAIN-SUFFIX,fp-upload.dun.163.com
 DOMAIN-SUFFIX,g.163.com
 DOMAIN-SUFFIX,g1.163.com
@@ -613,7 +612,6 @@ DOMAIN-SUFFIX,report-north-america.agora.io
 DOMAIN-SUFFIX,report-oversea.agora.io
 DOMAIN-SUFFIX,report-oversea2.agora.io
 DOMAIN-SUFFIX,statscollector-1.agora.io
-DOMAIN-SUFFIX,statscollector-1-asia.agora.io
 DOMAIN-SUFFIX,statscollector-1-north-america.agora.io
 DOMAIN-SUFFIX,tracking.agora.io
 DOMAIN-SUFFIX,webcollector-rtm.agora.io
@@ -1506,7 +1504,6 @@ DOMAIN-SUFFIX,daraz.com
 DOMAIN-SUFFIX,marketing.net.daraz.lk
 DOMAIN-SUFFIX,net.daraz.pk
 DOMAIN-SUFFIX,sgtm.darryring.com
-DOMAIN-SUFFIX,clickserve.dartsearch.net
 DOMAIN-SUFFIX,dashet.com
 DOMAIN-SUFFIX,gate.datacaciques.com
 DOMAIN-SUFFIX,pv.datacaciques.com
@@ -1672,6 +1669,7 @@ DOMAIN-SUFFIX,tx2play2.douyucdn.cn
 DOMAIN-SUFFIX,dotcounter.douyutv.com
 DOMAIN-SUFFIX,dpjzzgw.cn
 DOMAIN-SUFFIX,drdwy.com
+DOMAIN-SUFFIX,drivethelife.com
 DOMAIN-SUFFIX,drqft.cn
 DOMAIN-SUFFIX,email-verification-tbw2hsczpwmnv0lvrtfpuq-authentification.on.drv.tw
 DOMAIN-SUFFIX,dsfh2.icu
@@ -5292,6 +5290,7 @@ DOMAIN-SUFFIX,ru-timesync.vivoglobal.com
 DOMAIN-SUFFIX,ru-vcode-api.vivoglobal.com
 DOMAIN-SUFFIX,ru-vcode-od.vivoglobal.com
 DOMAIN-SUFFIX,ru-vcode-or.vivoglobal.com
+DOMAIN-SUFFIX,sca-cota.vivoglobal.com
 DOMAIN-SUFFIX,sca-domaincfg.vivoglobal.com
 DOMAIN-SUFFIX,sca-err-up.vivoglobal.com
 DOMAIN-SUFFIX,sca-onrt-stsdk.vivoglobal.com
@@ -5601,6 +5600,7 @@ DOMAIN-SUFFIX,stats.music.xiaomi.com
 DOMAIN-SUFFIX,storeconfig.mistat.intl.xiaomi.com
 DOMAIN-SUFFIX,sys.tv.india.xiaomi.com
 DOMAIN-SUFFIX,t1.market.xiaomi.com
+DOMAIN-SUFFIX,t17.market.xiaomi.com
 DOMAIN-SUFFIX,t2.market.xiaomi.com
 DOMAIN-SUFFIX,t3.market.xiaomi.com
 DOMAIN-SUFFIX,t4.market.xiaomi.com
