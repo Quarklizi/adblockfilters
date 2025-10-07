@@ -3,9 +3,9 @@
 # Description: 适用于 Clash 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockclashlite.list
-# Version: 20251007162809
-# Last modified: 2025/10/07 16:28:09
-# Blocked domains: 7438
+# Version: 20251008002556
+# Last modified: 2025/10/08 00:25:56
+# Blocked domains: 7419
 #
 DOMAIN-SUFFIX,kwcdn.000dn.com
 DOMAIN-SUFFIX,kwcscdn.000dn.com
@@ -288,7 +288,6 @@ DOMAIN-SUFFIX,soft.data.weather.360.cn
 DOMAIN-SUFFIX,stat.m.360.cn
 DOMAIN-SUFFIX,tf.360.cn
 DOMAIN-SUFFIX,tr.p.360.cn
-DOMAIN-SUFFIX,u.360.cn
 DOMAIN-SUFFIX,u.api.look.360.cn
 DOMAIN-SUFFIX,vconf.f.360.cn
 DOMAIN-SUFFIX,wan.360.cn
@@ -1237,7 +1236,6 @@ DOMAIN-SUFFIX,pimlog.baidu.com
 DOMAIN-SUFFIX,plugin.mobopay.baidu.com
 DOMAIN-SUFFIX,pos.baidu.com
 DOMAIN-SUFFIX,ps.map.baidu.com
-DOMAIN-SUFFIX,publish-pic-cpu.baidu.com
 DOMAIN-SUFFIX,pups.baidu.com
 DOMAIN-SUFFIX,qapm.baidu.com
 DOMAIN-SUFFIX,qianclick.baidu.com
@@ -2173,7 +2171,6 @@ DOMAIN-SUFFIX,sw3sydl.duoyi.com
 DOMAIN-SUFFIX,duxiaoman.com
 DOMAIN-SUFFIX,duxiaomanfintech.com
 DOMAIN-SUFFIX,dv0i.icu
-DOMAIN-SUFFIX,dvclhmt.cn
 DOMAIN-SUFFIX,analytics-api.dvdfab.cn
 DOMAIN-SUFFIX,dvtednm.cn
 DOMAIN-SUFFIX,dw365.cn
@@ -2629,7 +2626,6 @@ DOMAIN-SUFFIX,tianshu.gtimg.cn
 DOMAIN-SUFFIX,bla.gtimg.com
 DOMAIN-SUFFIX,ra.gtimg.com
 DOMAIN-SUFFIX,splashqqlive.gtimg.com
-DOMAIN-SUFFIX,tui.gtimg.com
 DOMAIN-SUFFIX,vmat.gtimg.com
 DOMAIN-SUFFIX,wa.gtimg.com
 DOMAIN-SUFFIX,gtpxvpi.cn
@@ -2707,7 +2703,6 @@ DOMAIN-SUFFIX,hapying.com
 DOMAIN-SUFFIX,hashnest.com
 DOMAIN-SUFFIX,a.hbf23.cn
 DOMAIN-SUFFIX,img1.hblds.com
-DOMAIN-SUFFIX,sensorsdata.hbooker.com
 DOMAIN-SUFFIX,hbqabbg.cn
 DOMAIN-SUFFIX,hbzhenquan.cn
 DOMAIN-SUFFIX,hdxyj.icu
@@ -3861,7 +3856,6 @@ DOMAIN-SUFFIX,lockview.cn
 DOMAIN-SUFFIX,deeplink.locokids.cn
 DOMAIN-SUFFIX,affiliate.loctek.com
 DOMAIN-SUFFIX,ad.lofter.com
-DOMAIN-SUFFIX,logagent-rum-292398709.cn-north-1.elb.amazonaws.com.cn
 DOMAIN-SUFFIX,webanalytics.logitech.com.cn
 DOMAIN-SUFFIX,webtarget.logitech.com.cn
 DOMAIN-SUFFIX,webanalytics.logitechg.com.cn
@@ -4489,7 +4483,6 @@ DOMAIN-SUFFIX,at-af.outfit7.com
 DOMAIN-SUFFIX,bidder.dsp.outfit7.com
 DOMAIN-SUFFIX,cdn.outfit7.com
 DOMAIN-SUFFIX,cdn-gcs.outfit7.com
-DOMAIN-SUFFIX,events-api-ak.outfit7.com
 DOMAIN-SUFFIX,hb-af-us-central1.outfit7.com
 DOMAIN-SUFFIX,outin.cn
 DOMAIN-SUFFIX,ouyaoxiazai.com
@@ -5260,7 +5253,6 @@ DOMAIN-SUFFIX,shijixinrui.cn
 DOMAIN-SUFFIX,shilian168.cn
 DOMAIN-SUFFIX,analysis.shixunsuda.com
 DOMAIN-SUFFIX,ad-pool.shiyuegame.com
-DOMAIN-SUFFIX,tracking.shopee.cn
 DOMAIN-SUFFIX,1.shopit.cn
 DOMAIN-SUFFIX,ads-shopping.shouqianba.com
 DOMAIN-SUFFIX,d1.showself.com
@@ -5447,7 +5439,6 @@ DOMAIN-SUFFIX,learning.snssdk.com
 DOMAIN-SUFFIX,lianmengapi.snssdk.com
 DOMAIN-SUFFIX,log.snssdk.com
 DOMAIN-SUFFIX,log-hl.snssdk.com
-DOMAIN-SUFFIX,log-lf.snssdk.com
 DOMAIN-SUFFIX,log-lq.snssdk.com
 DOMAIN-SUFFIX,mcs.snssdk.com
 DOMAIN-SUFFIX,mercury-sdk.snssdk.com
@@ -5516,7 +5507,6 @@ DOMAIN-SUFFIX,ad.sohu.com
 DOMAIN-SUFFIX,ads.sohu.com
 DOMAIN-SUFFIX,api.danmu.tv.sohu.com
 DOMAIN-SUFFIX,api.k.sohu.com
-DOMAIN-SUFFIX,api.tv.sohu.com
 DOMAIN-SUFFIX,assp.sohu.com
 DOMAIN-SUFFIX,bd.hd.sohu.com
 DOMAIN-SUFFIX,changyan.sohu.com
@@ -5708,7 +5698,6 @@ DOMAIN-SUFFIX,st3.wagbridge.advertisement.tanx.com
 DOMAIN-SUFFIX,xifs.tanx.com
 DOMAIN-SUFFIX,accscdn.m.taobao.com
 DOMAIN-SUFFIX,acookie.taobao.com
-DOMAIN-SUFFIX,acs.m.taobao.com
 DOMAIN-SUFFIX,acs4baichuan.m.taobao.com
 DOMAIN-SUFFIX,adash-c.m.taobao.com
 DOMAIN-SUFFIX,adash-c.ut.taobao.com
@@ -6289,7 +6278,6 @@ DOMAIN-SUFFIX,cname-in-ctdbonrt-stsdk.vivoglobal.com
 DOMAIN-SUFFIX,cname-sin01-stsdk09.vivoglobal.com
 DOMAIN-SUFFIX,co-cota.vivoglobal.com
 DOMAIN-SUFFIX,co-domaincfg.vivoglobal.com
-DOMAIN-SUFFIX,co-err-up.vivoglobal.com
 DOMAIN-SUFFIX,co-onrt-stsdk.vivoglobal.com
 DOMAIN-SUFFIX,co-ort-stsdk.vivoglobal.com
 DOMAIN-SUFFIX,co-pnrt-stsdk.vivoglobal.com
@@ -6304,7 +6292,6 @@ DOMAIN-SUFFIX,de-gdpr-err-up.vivoglobal.com
 DOMAIN-SUFFIX,de-gdpr-vcode-od.vivoglobal.com
 DOMAIN-SUFFIX,err-up.vivoglobal.com
 DOMAIN-SUFFIX,err.up.vivoglobal.com
-DOMAIN-SUFFIX,eu-album-api.vivoglobal.com
 DOMAIN-SUFFIX,eu-cota.vivoglobal.com
 DOMAIN-SUFFIX,eu-domaincfg.vivoglobal.com
 DOMAIN-SUFFIX,eu-errup.vivoglobal.com
@@ -6336,7 +6323,6 @@ DOMAIN-SUFFIX,in-cota.vivoglobal.com
 DOMAIN-SUFFIX,in-ctdbonrt-stsdk.vivoglobal.com
 DOMAIN-SUFFIX,in-ctdbort-stsdk.vivoglobal.com
 DOMAIN-SUFFIX,in-ctdbpnrt-stsdk.vivoglobal.com
-DOMAIN-SUFFIX,in-ctdbprt-stsdk.vivoglobal.com
 DOMAIN-SUFFIX,in-domaincfg.vivoglobal.com
 DOMAIN-SUFFIX,in-errup.vivoglobal.com
 DOMAIN-SUFFIX,in-ex-adlog.vivoglobal.com
@@ -6360,9 +6346,7 @@ DOMAIN-SUFFIX,kz-onrt-stsdk.vivoglobal.com
 DOMAIN-SUFFIX,kz-ort-stsdk.vivoglobal.com
 DOMAIN-SUFFIX,kz-romsp-unifyconfig.vivoglobal.com
 DOMAIN-SUFFIX,kz-st-exappupgrade.vivoglobal.com
-DOMAIN-SUFFIX,kz-st-sl.vivoglobal.com
 DOMAIN-SUFFIX,kz-stsdk.vivoglobal.com
-DOMAIN-SUFFIX,kz-timesync.vivoglobal.com
 DOMAIN-SUFFIX,kz-vcode-api.vivoglobal.com
 DOMAIN-SUFFIX,kz-vcode-od.vivoglobal.com
 DOMAIN-SUFFIX,kz-vcode-or.vivoglobal.com
@@ -6381,7 +6365,6 @@ DOMAIN-SUFFIX,mx-vcode-api.vivoglobal.com
 DOMAIN-SUFFIX,mx-vcode-od.vivoglobal.com
 DOMAIN-SUFFIX,mx-vcode-or.vivoglobal.com
 DOMAIN-SUFFIX,onrt-stsdk.vivoglobal.com
-DOMAIN-SUFFIX,pnrt-stsdk.vivoglobal.com
 DOMAIN-SUFFIX,ro-up.vivoglobal.com
 DOMAIN-SUFFIX,ru-album-api.vivoglobal.com
 DOMAIN-SUFFIX,ru-analyzer-appstore.vivoglobal.com
@@ -6399,7 +6382,6 @@ DOMAIN-SUFFIX,ru-ort-stsdk.vivoglobal.com
 DOMAIN-SUFFIX,ru-os-config-appstore.vivoglobal.com
 DOMAIN-SUFFIX,ru-p.vivoglobal.com
 DOMAIN-SUFFIX,ru-pnrt-stsdk.vivoglobal.com
-DOMAIN-SUFFIX,ru-prt-stsdk.vivoglobal.com
 DOMAIN-SUFFIX,ru-romsp-unifyconfig.vivoglobal.com
 DOMAIN-SUFFIX,ru-st-exappupgrade.vivoglobal.com
 DOMAIN-SUFFIX,ru-st-sl.vivoglobal.com
@@ -6441,7 +6423,6 @@ DOMAIN-SUFFIX,tr-vcode-or.vivoglobal.com
 DOMAIN-SUFFIX,za-p.vivoglobal.com
 DOMAIN-SUFFIX,zasc-cota.vivoglobal.com
 DOMAIN-SUFFIX,zasc-romsp-unifyconfig.vivoglobal.com
-DOMAIN-SUFFIX,zasc-vcode-od.vivoglobal.com
 DOMAIN-SUFFIX,zasc-vcode-or.vivoglobal.com
 DOMAIN-SUFFIX,finance-ad-center-prd.vivojrkj.com
 DOMAIN-SUFFIX,vlgkotr.cn
