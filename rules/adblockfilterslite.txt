@@ -3,8 +3,8 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilterslite.txt
-! Version: 20251018162522
-! Last modified: 2025/10/18 16:25:22
+! Version: 20251019002328
+! Last modified: 2025/10/19 00:23:28
 ! Blocked Filters: 42442
 !
 ###AC_ad
@@ -20066,7 +20066,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /live173_*/46860.
 /live800.
 /livecounter.php?wid=
-/livejasmin.$~xmlhttprequest,domain=~livejasmin.com
 /livestats.js
 /livezilla/server.php?request=track&
 /ljcounter/?d=
@@ -20469,6 +20468,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /oo/*/lsync.js
 /oo/cl*.js?rd=
 /oo/cl.js|$~third-party
+/op/analytics.js?domain=
 /opbb/float.js
 /opbb/obpp.tpl
 /opdc.js
@@ -26974,7 +26974,6 @@ a9vg.com###qrcode
 a9vg.com##.a9-back-top_qrcode
 aa25.cn###content_head
 aa25.cn,kafan.cn###content_top
-aaaweb.cn##a[href$=".yhzu.cn"]
 aads.com,ad-maven.com,adcash.com,admitad.com,adskeeper.com,adspyglass.com,adsupply.com,chpadblock.com,exoclick.com,hilltopads.com,juicyads.com,luckyads.pro,monetag.com,popads.net,propellerads.com,purpleads.io,trafficshop.com,yavli.com##HTML
 aae3.com,qq.com###coo_qqBrowser
 aajtak.intoday.in,ampproject.org##amp-embed[type="taboola"]
@@ -27308,6 +27307,7 @@ amazon.*###sponsoredProducts_feature_div
 amazon.*###typ-recommendations-stripe-1
 amazon.*###typ-recommendations-stripe-2
 amazon.*##.AdsCard_container__K6vmo
+amazon.*##.a-cardui[class*="_new-detail-faceout-box_"]:has(.dynamicSponsoredLabelClass)
 amazon.*##.amzn-safe-frame-container
 amazon.*##.dp-widget-card-deck:has([data-ad-placement-metadata])
 amazon.*##.s-main-slot > div.s-result-item:has(> .sg-col-inner:only-child > div[class*="widget=loom-"][class*="FEATURED"])
